@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  top: 10%;
+  position: absolute;
+  flex-direction: column;
+  width: calc(100vw - 64px);
+  margin: 32px;
+  gap: 16px;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
